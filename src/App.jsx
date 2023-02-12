@@ -10,7 +10,7 @@ import LoginPage from './pages/login';
 function App() {
     const navigate = useNavigate();
     return <div>
-        <h1>Demo site</h1>
+        <h1>Demo site test</h1>
         <button onClick={()=> {navigate('/new')}}>Create new</button>
         <hr />
         <Routes>
